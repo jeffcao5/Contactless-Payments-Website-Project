@@ -69,20 +69,31 @@
       }
     });
   }
-
-  .accordion:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
-  color: #777;
-  float: right;
-  margin-left: 5px;
-}
-
-.active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
-}
   </script>
     
+
+
+    <h1>Want to learn more?</h1>
+    <h2> Submit your email below and we'll send you some relevant links!</h2>
+
+    <form
+      action="https://formspree.io/f/mrgjawdg"
+      method="POST"
+    
+    >
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" value="John"><br><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value="Doe"><br><br>
+      <label for="email">Email:</label><br>
+      <input type="text" id="email" name="email" value="yourname@georgetown.edu"><br><br>
+      <button> Submit </button>
+    </form>
+    
+ 
+
+
+
 
     
 
