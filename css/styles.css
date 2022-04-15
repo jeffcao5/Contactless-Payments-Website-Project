@@ -3035,13 +3035,13 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #000000;
-  background-color: rgb(78, 138, 248);
-  border-color: rgb(78, 138, 248);
+  background-color: rgb(169, 117, 38);
+  border-color: rgb(169, 117, 38);
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #d9aa00;
-  border-color: #cca000;
+  background-color: black;
+  border-color: black;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -11376,10 +11376,10 @@ p {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     border: none;
-    background-color: black;
+    background-color: #212529;
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -11391,8 +11391,8 @@ p {
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
     background-color: #212529;
   }
   #mainNav.navbar-shrink .navbar-brand {
