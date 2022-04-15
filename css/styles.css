@@ -3036,7 +3036,7 @@ textarea.form-control-lg {
 .btn-primary {
   color: #000000;
   background-color: rgb(245, 213, 166);
-  border-color: rgb(175, 152, 118);
+  border-color: black
 }
 .btn-primary:hover {
   color: #fff;
