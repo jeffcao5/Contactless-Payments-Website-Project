@@ -3035,8 +3035,8 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #000000;
-  background-color: #ffc800;
-  border-color: #ffc800;
+  background-color: rgb(78, 138, 248);
+  border-color: rgb(78, 138, 248);
 }
 .btn-primary:hover {
   color: #fff;
@@ -11379,7 +11379,7 @@ p {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     border: none;
-    background-color: transparent;
+    background-color: black;
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
